@@ -1,0 +1,13 @@
+O programa pede o nome do arquivo ppm que deseja utilizar e depois te dá a opção de recortar uma parte para a aplicage do filtro ou não. Depois disso vai ao menu de filtros onde voce pode aplicar varios filtros na área escolhido posteriormente até optar por sair do programa onde ele termina.
+
+- Filtro_PB: Faz a media do RGB da imagem para obter seus tons de cinza fazendo a imagem ficar em preto e branco.
+
+- filtro_brilho: O filtre pede para o usuário digitar um valor de ajuste para o brilho da imagem, depois disso adiciona o ajuste a todos os canais de cores da imagem para fazer ela parecer mais escura se o ajuste for negativo, ou mais brilhosa se o ajuste for positivo.
+
+- filtro_sepia: Aplica um filtro sépia com a equação tirado do "https://abhijitnathwani.github.io/blog/2018/01/08/colortosepia-Image-using-C" o filtro sépia deixa a imagem mais alaranjada por isso os coeficientes do R e G são maiores que a do B e o produto disso retorna uma imagem com tons alaranjados.
+
+- filtro_fliph: Ele flipa a imagem horizontalmente re-arranjando os pixels da imagem.
+
+- filtro_flipv: Ele flipa a imagem verticalmente re-arranjando os pixels da imagem.
+
+- filtro_listras: Adiciona uma listra da cor que escolher a cada intervalo que escolher.
