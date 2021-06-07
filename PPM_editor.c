@@ -1,5 +1,5 @@
 /*
-Julio Cesar Polmann Cuencas | Matricula: 201920872
+PPM P3 editor
 */
 
 #include <stdlib.h>
